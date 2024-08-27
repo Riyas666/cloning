@@ -1,0 +1,118 @@
+ 
+
+header{
+    cursor: pointer;
+    background-color: black;
+
+}
+
+header:hover{
+    opacity: 0.8;
+}
+@media screen and (min-width:988px){
+    .navbar-logo{
+        margin-left: 143px;
+    }
+}
+@media screen and (max-width:988px) {
+    .navbar-logo{
+        margin: auto;
+    }
+    
+}
+.navbar-toggler{
+    
+    background-color: black;
+}
+.navbar-nav{
+    margin-left: 15px;
+
+}
+.navbar-nav:hover{
+    
+}
+.nav-link:hover{
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+.image-grid{
+    
+    gap: 10px;
+
+}
+.image-item{
+    width: 100px;
+    display: inline;
+    
+}
+
+
+.imgs{
+    width: 400px;
+    height: 300px;
+}
+@media screen and (max-width:1400px){
+    .col-6 img{
+        width: 290px;
+    }
+}
+@media screen and (max-width:1200px) {
+    .col-6 img{
+        width: 250px;
+    }
+}
+@media screen and (max-width:768px) {
+    .col-6 img{
+        width: 230px;
+    }
+}
+.footer{
+    margin-top: 20px;
+    height: 450px;
+    background-color: black;
+}
+@media screen and (max-width:768px){
+   .fs-4,.fs-5{
+    margin: auto;
+    
+    
+   }
+    
+}
+@media screen and (max-width:992px) {
+    .col-lg-4 img{
+        width: 100%;
+    } 
+    
+}
+.footer-text2{
+    font-size: 18px;
+    color: rgb(156, 153, 153);
+}
+.footer-text2 p:hover{
+    cursor: pointer;
+    color: white;
+    text-decoration: underline;
+}
+.bi{
+    color: whitesmoke;
+}
+.bi:hover{
+    cursor: pointer;
+    
+    
+}
+
+.footer-2{
+    margin-top: 100px;
+    text-align: center;
+    color: rgb(131, 127, 127);
+    font-size: 13px;
+    font-weight: 600;
+}
+.footer-2-text:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: white;
+}
